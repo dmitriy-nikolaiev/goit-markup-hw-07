@@ -17,16 +17,15 @@
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  /* Вопрос padding или display: flex */
-  padding: 25px 100px;
-  /* display: flex;
+
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 
   border-radius: 4px;
   background-color: $secondary-background-color;
 }
 
-.features .title {
+.features-list-item .title {
   margin-bottom: 10px;
 }

@@ -767,13 +767,13 @@ body {
   color: #ffffff;
 }
 
-.social-join .social-list-item-link {
+.footer .social-list-item-link {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   color: #ffffff;
 }
 
-.social-join .social-list-item-link:hover {
+.footer .social-list-item-link:hover {
   background-color: #2196f3;
 }
 
