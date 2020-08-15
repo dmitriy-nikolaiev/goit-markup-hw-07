@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -337,6 +338,18 @@ template {
   display: none;
 }
 
+.filter-input {
+  /* скрытие оригинального чекбокса */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -435,11 +448,16 @@ body {
   background-color: #2196f3;
 }
 
+.projects-filter-list-item {
+  position: relative;
+}
+
 .filter-button {
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
+  display: block;
   border: 0;
   border-radius: 4px;
   font-weight: 500;
@@ -458,16 +476,10 @@ body {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
-.active-button {
+.filter-input:checked + .filter-button {
   color: #ffffff;
   background-color: #2196f3;
-}
-
-.filter-button:hover,
-.filter-button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
 }
 
 .social-list {

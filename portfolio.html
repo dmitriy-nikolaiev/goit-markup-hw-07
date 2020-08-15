@@ -71,27 +71,70 @@
           <!-- фильтр проектов -->
           <ul class="projects-filter list">
             <li class="projects-filter-list-item">
-              <button class="filter-button active-button">Все</button>
+              <!-- <button class="filter-button active-button">Все</button> -->
+              <input
+                id="filter-all"
+                type="radio"
+                name="filter"
+                value="all"
+                class="filter-input"
+                checked
+              />
+              <label for="filter-all" class="filter-button">Все</label>
             </li>
             <li class="projects-filter-list-item">
-              <button class="filter-button">
+              <!-- <button class="filter-button">
                 Веб-сайты
-              </button>
+              </button> -->
+              <input
+                id="filter-web"
+                type="radio"
+                name="filter"
+                value="web"
+                class="filter-input"
+              />
+              <label for="filter-web" class="filter-button">Веб-сайты</label>
             </li>
             <li class="projects-filter-list-item">
-              <button class="filter-button">
+              <!-- <button class="filter-button">
                 Приложения
-              </button>
+              </button> -->
+              <input
+                id="filter-apps"
+                type="radio"
+                name="filter"
+                value="apps"
+                class="filter-input"
+              />
+              <label for="filter-apps" class="filter-button">Приложения</label>
             </li>
             <li class="projects-filter-list-item">
-              <button class="filter-button">
+              <!-- <button class="filter-button">
                 Дизайн
-              </button>
+              </button> -->
+              <input
+                id="filter-design"
+                type="radio"
+                name="filter"
+                value="design"
+                class="filter-input"
+              />
+              <label for="filter-design" class="filter-button">Дизайн</label>
             </li>
             <li class="projects-filter-list-item">
-              <button class="filter-button">
+              <!-- <button class="filter-button">
                 Маркетинг
-              </button>
+              </button> -->
+              <input
+                id="filter-marketing"
+                type="radio"
+                name="filter"
+                value="marketing"
+                class="filter-input"
+              />
+              <label for="filter-marketing" class="filter-button"
+                >Маркетинг</label
+              >
             </li>
           </ul>
 
