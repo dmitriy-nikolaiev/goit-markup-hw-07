@@ -216,7 +216,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.button-main {
+.main-button {
   width: 200px;
   height: 50px;
   display: flex;
@@ -265,7 +265,7 @@ body {
   color: #ffffff;
   margin-bottom: 30px;
 }
-.hero .button-main {
+.hero .main-button {
   margin: 0 auto;
 }
 
@@ -545,6 +545,8 @@ body {
   margin-left: 10px;
 }
 
+/* МОДАЛЬНАЯ ФОРМА */
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -554,7 +556,6 @@ body {
   transform: translateY(100%);
 }
 
-/* МОДАЛЬНАЯ ФОРМА */
 .backdrop {
   position: fixed;
   left: 0px;
@@ -819,24 +820,11 @@ body {
 .form-btn {
   align-self: center;
 }
+
 /* ПОРТФОЛИО */
 /* кнопки фильтра */
 
-.projects-title {
-  display: none;
-}
-
-.projects-filter {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.projects-filter-list-item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.button-filter {
+.filter-button {
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
@@ -867,8 +855,8 @@ body {
     0px 3px 1px rgba(0, 0, 0, 0.1); */
 }
 
-.button-filter:hover,
-.button-filter:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--main-background-color);
   background-color: var(--accent-color);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -876,6 +864,21 @@ body {
 }
 
 /* проекты */
+
+.projects-title {
+  display: none;
+}
+
+.projects-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.projects-filter-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,20 @@
+@import "./utils/variables";
+@import "./utils/normalize";
+//
+@import "./components/base";
+@import "./components/container";
+@import "./components/section";
+@import "./components/main-button";
+@import "./components/modal-form";
+@import "./components/social-list";
+//
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/about-us";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+//
+@import "./utils/keyframes";
+@import "./components/animations";
