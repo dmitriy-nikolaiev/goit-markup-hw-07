@@ -28,7 +28,9 @@ button {
 body {
   font-family: $main-font;
   font-style: normal;
-  font-weight: 400;
+  // значения по умолчанию
+  @include font();
+  // font-weight: 400;
   letter-spacing: 0.03em;
 
   color: $main-text-color;

@@ -17,9 +17,10 @@
 
 .address {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font();
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.71;
   letter-spacing: 0.03em;
   color: $dark-theme-secondary-color;
 }
@@ -72,8 +73,9 @@
   padding-left: 16px;
   padding-right: 16px;
 
-  font-size: 16px;
-  line-height: 1.25;
+  @include font(16px, 400, 1.25);
+  // font-size: 16px;
+  // line-height: 1.25;
 
   /* color: rgba(255, 255, 255, 0.6); */
   color: $main-background-color;

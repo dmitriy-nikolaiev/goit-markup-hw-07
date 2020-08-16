@@ -8,9 +8,11 @@
 .logo {
   font-family: $logo-font;
   font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font(26px, 700, 1.19);
+
+  // font-weight: 700;
+  // font-size: 26px;
+  // line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -56,9 +58,10 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 500, 1.14);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: $main-title-color;
@@ -127,9 +130,10 @@
 .header-address-item-link {
   display: flex;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 500, 1.14);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: $main-text-color;

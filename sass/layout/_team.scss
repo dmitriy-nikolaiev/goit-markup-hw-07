@@ -24,9 +24,10 @@
 }
 
 .team-item-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 500, 1.19);
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: $main-title-color;
@@ -35,8 +36,9 @@
 }
 
 .team-item-position {
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 400, 1.19);
+  // font-size: 16px;
+  // line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 
