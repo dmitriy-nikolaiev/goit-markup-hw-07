@@ -1089,7 +1089,7 @@ body {
 
 @keyframes animationWeb {
   0% {
-    transform: 0;
+    transform: none;
   }
   15% {
     transform: translateX(10px);
@@ -1101,7 +1101,7 @@ body {
     transform: translateX(10px);
   }
   80% {
-    transform: 0;
+    transform: none;
   }
   95% {
     transform: scaleY(0.1);
