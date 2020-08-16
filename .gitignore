@@ -3,6 +3,7 @@
 *.rar
 
 #VScode
+.vscode
 settings.json
 prettierrc.json
 
